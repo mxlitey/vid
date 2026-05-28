@@ -53,6 +53,19 @@ export default function Home() {
           </div>
         )}
       </main>
+      <footer className="border-t border-white/5 py-6 mt-8">
+        <p className="text-center text-gray-500 text-sm">
+          设计与开发由{" "}
+          <a
+            href="https://github.com/mxlitey/vid"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition-colors duration-200"
+          >
+            mxlitey
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }

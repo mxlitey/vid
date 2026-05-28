@@ -1,4 +1,5 @@
 import { Search } from "lucide-react";
+import { Github } from "lucide-react";
 import { useVideoStore } from "@/store/videoStore";
 
 export default function Navbar() {
@@ -26,7 +27,14 @@ export default function Navbar() {
             className="w-full bg-white/5 border border-white/10 rounded-full pl-10 pr-4 py-2 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-red-500/50 focus:bg-white/10 transition-all duration-200"
           />
         </div>
-        <div className="w-9" />
+        <a
+          href="https://github.com/mxlitey/vid"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-400 hover:text-white transition-colors duration-200"
+        >
+          <Github size={22} />
+        </a>
       </div>
     </nav>
   );
