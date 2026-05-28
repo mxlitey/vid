@@ -103,6 +103,6 @@
       "cover": "https://your-bucket.oss-cn-beijing.aliyuncs.com/covers/cover6.jpg",
       "src": "https://your-bucket.oss-cn-beijing.aliyuncs.com/videos/video6.mp4",
       "duration": "07:13"
-    },
+    }
   ]
 }
