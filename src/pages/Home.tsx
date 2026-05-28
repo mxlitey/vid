@@ -1,0 +1,64 @@
+import { useEffect } from "react";
+import Navbar from "@/components/Navbar";
+import VideoCard from "@/components/VideoCard";
+import { useVideoStore } from "@/store/videoStore";
+import type { VideosData } from "@/types/video";
+
+export default function Home() {
+  const { videos, setVideos, filteredVideos, searchQuery } = useVideoStore();
+
+  useEffect(() => {
+    if (videos.length > 0) return;
+    fetch("/videos.json")
+      .then((res) => res.json())
+      .then((data: VideosData) => setVideos(data.videos))
+      .catch((err) => console.error("Failed to load videos:", err));
+  }, [videos.length, setVideos]);
+
+  const displayVideos = filteredVideos();
+
+  return (
+    <div className="min-h-screen bg-[#0a0a0f]">
+      <Navbar />
+      <main className="container mx-auto px-6 py-8">
+        <div className="mb-8">
+          <h1 className="text-3xl font-bold text-white mb-2">发现视频</h1>
+          <p className="text-gray-400 text-sm">
+            浏览并观看精选视频内容，点击任意视频开始播放
+          </p>
+        </div>
+
+        {displayVideos.length === 0 ? (
+          <div className="flex flex-col items-center justify-center py-20">
+            <div className="w-20 h-20 rounded-full bg-white/5 flex items-center justify-center mb-4">
+              <svg
+                className="w-10 h-10 text-gray-600"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={1.5}
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                />
+              </svg>
+            </div>
+            <p className="text-gray-500 text-lg">
+              {searchQuery
+                ? `未找到与 "${searchQuery}" 相关的视频`
+                : "暂无视频内容"}
+            </p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {displayVideos.map((video) => (
+              <VideoCard key={video.id} video={video} />
+            ))}
+          </div>
+        )}
+      </main>
+    </div>
+  );
+}

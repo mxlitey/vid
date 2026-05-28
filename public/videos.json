@@ -1,0 +1,52 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "title": "示例视频1",
+      "description": "这是第一个示例视频，展示了自然风光的美丽景色。",
+      "cover": "https://your-bucket.oss-cn-beijing.aliyuncs.com/covers/cover1.jpg",
+      "src": "https://your-bucket.oss-cn-beijing.aliyuncs.com/videos/video1.mp4",
+      "duration": "05:32"
+    },
+    {
+      "id": 2,
+      "title": "示例视频2",
+      "description": "这是第二个示例视频，记录了城市生活的精彩瞬间。",
+      "cover": "https://your-bucket.oss-cn-beijing.aliyuncs.com/covers/cover2.jpg",
+      "src": "https://your-bucket.oss-cn-beijing.aliyuncs.com/videos/video2.mp4",
+      "duration": "08:15"
+    },
+    {
+      "id": 3,
+      "title": "示例视频3",
+      "description": "这是第三个示例视频，一段关于科技与未来的思考。",
+      "cover": "https://your-bucket.oss-cn-beijing.aliyuncs.com/covers/cover3.jpg",
+      "src": "https://your-bucket.oss-cn-beijing.aliyuncs.com/videos/video3.mp4",
+      "duration": "12:48"
+    },
+    {
+      "id": 4,
+      "title": "示例视频4",
+      "description": "这是第四个示例视频，探索美食文化的独特魅力。",
+      "cover": "https://your-bucket.oss-cn-beijing.aliyuncs.com/covers/cover4.jpg",
+      "src": "https://your-bucket.oss-cn-beijing.aliyuncs.com/videos/video4.mp4",
+      "duration": "06:20"
+    },
+    {
+      "id": 5,
+      "title": "示例视频5",
+      "description": "这是第五个示例视频，感受音乐带来的心灵震撼。",
+      "cover": "https://your-bucket.oss-cn-beijing.aliyuncs.com/covers/cover5.jpg",
+      "src": "https://your-bucket.oss-cn-beijing.aliyuncs.com/videos/video5.mp4",
+      "duration": "10:05"
+    },
+    {
+      "id": 6,
+      "title": "示例视频6",
+      "description": "这是第六个示例视频，跟随镜头走进艺术的世界。",
+      "cover": "https://your-bucket.oss-cn-beijing.aliyuncs.com/covers/cover6.jpg",
+      "src": "https://your-bucket.oss-cn-beijing.aliyuncs.com/videos/video6.mp4",
+      "duration": "07:42"
+    }
+  ]
+}
