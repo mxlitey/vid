@@ -15,7 +15,7 @@ export const useVideoStore = create<VideoStore>((set, get) => ({
   videos: [],
   searchQuery: "",
   currentVideo: null,
-  setVideos: (videos) => set({ videos }),
+  setVideos: (videos) => set({ videos: [...videos].sort((a, b) => a.id - b.id) }),
   setSearchQuery: (searchQuery) => set({ searchQuery }),
   setCurrentVideo: (currentVideo) => set({ currentVideo }),
   filteredVideos: () => {
