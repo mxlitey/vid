@@ -1,4 +1,4 @@
-import { Search, Film } from "lucide-react";
+import { Search } from "lucide-react";
 import { useVideoStore } from "@/store/videoStore";
 
 export default function Navbar() {
@@ -8,11 +8,9 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 bg-[#0a0a0f]/80 backdrop-blur-xl border-b border-white/5">
       <div className="container mx-auto px-6 h-16 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-lg bg-red-600 flex items-center justify-center shadow-lg shadow-red-600/30">
-            <Film size={20} className="text-white" />
-          </div>
+          <img src="/favicon.png" alt="Vid" className="w-9 h-9 rounded-lg object-cover" />
           <span className="text-white font-bold text-xl tracking-tight">
-            Vidscape
+            Vid
           </span>
         </div>
         <div className="relative max-w-md w-full mx-8">

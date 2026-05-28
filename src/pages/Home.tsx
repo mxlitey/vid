@@ -21,12 +21,6 @@ export default function Home() {
     <div className="min-h-screen bg-[#0a0a0f]">
       <Navbar />
       <main className="container mx-auto px-6 py-8">
-        <div className="mb-8">
-          <h1 className="text-3xl font-bold text-white mb-2">发现视频</h1>
-          <p className="text-gray-400 text-sm">
-            浏览并观看精选视频内容，点击任意视频开始播放
-          </p>
-        </div>
 
         {displayVideos.length === 0 ? (
           <div className="flex flex-col items-center justify-center py-20">

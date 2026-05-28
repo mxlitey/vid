@@ -8,6 +8,9 @@ export default defineConfig({
   build: {
     sourcemap: 'hidden',
   },
+  server: {
+    historyApiFallback: true,
+  },
   plugins: [
     react({
       babel: {
