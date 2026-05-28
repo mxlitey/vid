@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { ArrowLeft, Film } from "lucide-react";
+import { ArrowLeft, Film, Github } from "lucide-react";
 import VideoPlayer from "@/components/VideoPlayer";
 import { useVideoStore } from "@/store/videoStore";
 import type { VideosData } from "@/types/video";
@@ -45,7 +45,7 @@ export default function Play() {
   return (
     <div className="min-h-screen bg-[#0a0a0f]">
       <nav className="sticky top-0 z-50 bg-[#0a0a0f]/80 backdrop-blur-xl border-b border-white/5">
-        <div className="container mx-auto px-6 h-14 flex items-center">
+        <div className="container mx-auto px-6 h-14 flex items-center justify-between">
           <button
             onClick={() => navigate("/")}
             className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors duration-200 text-sm"
@@ -53,6 +53,14 @@ export default function Play() {
             <ArrowLeft size={18} />
             <span>返回列表</span>
           </button>
+          <a
+            href="https://github.com/mxlitey/vid"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition-colors duration-200"
+          >
+            <Github size={20} />
+          </a>
         </div>
       </nav>
 
@@ -107,6 +115,19 @@ export default function Play() {
           </aside>
         </div>
       </main>
+      <footer className="border-t border-white/5 py-6 mt-8">
+        <p className="text-center text-gray-500 text-sm">
+          设计与开发由{" "}
+          <a
+            href="https://github.com/mxlitey/vid"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition-colors duration-200"
+          >
+            mxlitey
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }

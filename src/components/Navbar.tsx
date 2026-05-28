@@ -14,7 +14,7 @@ export default function Navbar() {
             Vid
           </span>
         </div>
-        <div className="relative max-w-md w-full mx-8">
+        <div className="relative max-w-md w-full mx-4 sm:mx-8">
           <Search
             size={18}
             className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500"
