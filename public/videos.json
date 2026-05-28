@@ -4,8 +4,8 @@
       "id": 1,
       "title": "示例视频1",
       "description": "暂无标题。",
-      "cover": "http://vid.flze.cn/v/cover/0.jpg",
-      "src": "http://vid.flze.cn/v/0.mp4",
+      "cover": "http://qiniu.flze.cn/v/cover/0.jpg",
+      "src": "http://qiniu.flze.cn/v/0.mp4",
       "duration": "05:40"
     },
     {
