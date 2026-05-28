@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { ArrowLeft, Film, Github } from "lucide-react";
+import { ArrowLeft, Film } from "lucide-react";
 import VideoPlayer from "@/components/VideoPlayer";
 import { useVideoStore } from "@/store/videoStore";
 import type { VideosData } from "@/types/video";
@@ -53,14 +53,6 @@ export default function Play() {
             <ArrowLeft size={18} />
             <span>返回列表</span>
           </button>
-          <a
-            href="https://github.com/mxlitey/vid"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 hover:text-white transition-colors duration-200"
-          >
-            <Github size={20} />
-          </a>
         </div>
       </nav>
 
@@ -81,7 +73,7 @@ export default function Play() {
           <aside className="lg:w-80 shrink-0">
             <h2 className="text-white font-semibold text-sm mb-4 flex items-center gap-2">
               <div className="w-1 h-4 bg-red-600 rounded-full" />
-              相关推荐
+              其他课程
             </h2>
             <div className="space-y-3">
               {relatedVideos.map((video) => (
