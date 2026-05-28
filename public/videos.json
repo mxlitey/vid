@@ -4,104 +4,104 @@
       "id": 1,
       "title": "示例视频1",
       "description": "暂无标题。",
-      "cover": "http://qiniu.flze.cn/v/cover/0.jpg",
-      "src": "http://qiniu.flze.cn/v/0.mp4",
+      "cover": "https://vid.lii.qzz.io/v/cover/0.jpg",
+      "src": "https://vid.lii.qzz.io/v/0.mp4",
       "duration": "05:40"
     },
     {
       "id": 2,
       "title": "示例视频2",
       "description": "暂无标题。",
-      "cover": "https://your-bucket.oss-cn-beijing.aliyuncs.com/covers/cover2.jpg",
-      "src": "https://your-bucket.oss-cn-beijing.aliyuncs.com/videos/video2.mp4",
+      "cover": "https://vid.lii.qzz.io/v/cover/1.jpg",
+      "src": "https://vid.lii.qzz.io/v/1.mp4",
       "duration": "04:16"
     },
     {
       "id": 3,
       "title": "示例视频3",
       "description": "暂无标题。",
-      "cover": "https://your-bucket.oss-cn-beijing.aliyuncs.com/covers/cover3.jpg",
-      "src": "https://your-bucket.oss-cn-beijing.aliyuncs.com/videos/video3.mp4",
+      "cover": "https://vid.lii.qzz.io/v/cover/2.jpg",
+      "src": "https://vid.lii.qzz.io/v/2.mp4",
       "duration": "07:34"
     },
     {
       "id": 4,
       "title": "示例视频4",
       "description": "暂无标题。",
-      "cover": "https://your-bucket.oss-cn-beijing.aliyuncs.com/covers/cover4.jpg",
-      "src": "https://your-bucket.oss-cn-beijing.aliyuncs.com/videos/video4.mp4",
+      "cover": "https://vid.lii.qzz.io/v/cover/3.jpg",
+      "src": "https://vid.lii.qzz.io/v/3.mp4",
       "duration": "05:16"
     },
     {
       "id": 5,
       "title": "示例视频5",
       "description": "暂无标题。",
-      "cover": "https://your-bucket.oss-cn-beijing.aliyuncs.com/covers/cover5.jpg",
-      "src": "https://your-bucket.oss-cn-beijing.aliyuncs.com/videos/video5.mp4",
+      "cover": "https://vid.lii.qzz.io/v/cover/4.jpg",
+      "src": "https://vid.lii.qzz.io/v/4.mp4",
       "duration": "04:08"
     },
     {
       "id": 6,
       "title": "示例视频6",
       "description": "暂无标题。",
-      "cover": "https://your-bucket.oss-cn-beijing.aliyuncs.com/covers/cover6.jpg",
-      "src": "https://your-bucket.oss-cn-beijing.aliyuncs.com/videos/video6.mp4",
+      "cover": "https://vid.lii.qzz.io/v/cover/5.jpg",
+      "src": "https://vid.lii.qzz.io/v/5.mp4",
       "duration": "04:14"
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "示例视频7",
       "description": "暂无标题。",
-      "cover": "https://your-bucket.oss-cn-beijing.aliyuncs.com/covers/cover6.jpg",
-      "src": "https://your-bucket.oss-cn-beijing.aliyuncs.com/videos/video6.mp4",
+      "cover": "https://vid.lii.qzz.io/v/cover/6.jpg",
+      "src": "https://vid.lii.qzz.io/v/6.mp4",
       "duration": "04:53"
     },
     {
-      "id": 6,
+      "id": 8,
       "title": "示例视频8",
       "description": "暂无标题。",
-      "cover": "https://your-bucket.oss-cn-beijing.aliyuncs.com/covers/cover6.jpg",
-      "src": "https://your-bucket.oss-cn-beijing.aliyuncs.com/videos/video6.mp4",
+      "cover": "https://vid.lii.qzz.io/v/cover/7.jpg",
+      "src": "https://vid.lii.qzz.io/v/7.mp4",
       "duration": "04:49"
     },
     {
-      "id": 6,
+      "id": 9,
       "title": "示例视频9",
       "description": "暂无标题。",
-      "cover": "https://your-bucket.oss-cn-beijing.aliyuncs.com/covers/cover6.jpg",
-      "src": "https://your-bucket.oss-cn-beijing.aliyuncs.com/videos/video6.mp4",
+      "cover": "https://vid.lii.qzz.io/v/cover/8.jpg",
+      "src": "https://vid.lii.qzz.io/v/8.mp4",
       "duration": "04:20"
     },
     {
-      "id": 6,
+      "id": 10,
       "title": "示例视频10",
       "description": "暂无标题。",
-      "cover": "https://your-bucket.oss-cn-beijing.aliyuncs.com/covers/cover6.jpg",
-      "src": "https://your-bucket.oss-cn-beijing.aliyuncs.com/videos/video6.mp4",
+      "cover": "https://vid.lii.qzz.io/v/cover/9.jpg",
+      "src": "https://vid.lii.qzz.io/v/9.mp4",
       "duration": "04:44"
     },
     {
-      "id": 6,
+      "id": 11,
       "title": "示例视频11",
       "description": "暂无标题。",
-      "cover": "https://your-bucket.oss-cn-beijing.aliyuncs.com/covers/cover6.jpg",
-      "src": "https://your-bucket.oss-cn-beijing.aliyuncs.com/videos/video6.mp4",
+      "cover": "https://vid.lii.qzz.io/v/cover/10.jpg",
+      "src": "https://vid.lii.qzz.io/v/10.mp4",
       "duration": "04:57"
     },
     {
-      "id": 6,
+      "id": 12,
       "title": "示例视频12",
       "description": "暂无标题。",
-      "cover": "https://your-bucket.oss-cn-beijing.aliyuncs.com/covers/cover6.jpg",
-      "src": "https://your-bucket.oss-cn-beijing.aliyuncs.com/videos/video6.mp4",
+      "cover": "https://vid.lii.qzz.io/v/cover/11.jpg",
+      "src": "https://vid.lii.qzz.io/v/11.mp4",
       "duration": "02:38"
     },
     {
-      "id": 6,
+      "id": 13,
       "title": "示例视频13",
       "description": "暂无标题。",
-      "cover": "https://your-bucket.oss-cn-beijing.aliyuncs.com/covers/cover6.jpg",
-      "src": "https://your-bucket.oss-cn-beijing.aliyuncs.com/videos/video6.mp4",
+      "cover": "https://vid.lii.qzz.io/v/cover/12.jpg",
+      "src": "https://vid.lii.qzz.io/v/12.mp4",
       "duration": "07:13"
     }
   ]
