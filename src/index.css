@@ -48,16 +48,13 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
   border: none;
   background-color: rgba(229, 9, 20, 0.9);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   line-height: 2.5em;
   transition: all 0.3s ease;
 }
 
 .video-js .vjs-big-play-button:hover {
   background-color: rgba(229, 9, 20, 1);
-  transform: translate(-50%, -50%) scale(1.1);
+  transform: scale(1.1);
 }
 
 .video-js .vjs-control-bar {

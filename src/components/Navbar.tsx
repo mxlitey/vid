@@ -8,13 +8,13 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 bg-[#0a0a0f]/80 backdrop-blur-xl border-b border-white/5">
       <div className="container mx-auto px-6 h-16 flex items-center justify-between">
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 shrink-0">
           <img src="/favicon.png" alt="Vid" className="w-9 h-9 rounded-lg object-cover" />
           <span className="text-white font-bold text-xl tracking-tight">
             Vid
           </span>
         </div>
-        <div className="relative max-w-md w-full mx-4 sm:mx-8">
+        <div className="relative flex-1 min-w-0 mx-4 sm:mx-8 max-w-md">
           <Search
             size={18}
             className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500"
@@ -31,7 +31,7 @@ export default function Navbar() {
           href="https://github.com/mxlitey/vid"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-400 hover:text-white transition-colors duration-200"
+          className="text-gray-400 hover:text-white transition-colors duration-200 shrink-0"
         >
           <Github size={22} />
         </a>
