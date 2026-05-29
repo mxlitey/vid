@@ -21,7 +21,7 @@ export default function Home() {
     <div className="min-h-screen bg-[#0a0a0f]">
       <Navbar />
       <main className="container mx-auto px-6 py-8">
-        <h2 className="text-gray-400 text-sm font-medium mb-6 tracking-wide">上海阿德科特选课视频</h2>
+        <h2 className="text-gray-400 text-sm font-medium mb-6 tracking-wide">上海阿德科特学校 新AS年级选课</h2>
 
         {displayVideos.length === 0 ? (
           <div className="flex flex-col items-center justify-center py-20">
